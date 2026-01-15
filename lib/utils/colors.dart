@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+class AppColors {
+  static const Color primary = Color(0xFF6B0F4F);
+  static const Color accent = Color(0xFFE91E63);
+  static const Color secondary = Color(0xFFFF6B9D);
+  static const Color background = Color(0xFFF5F5F5);
+  static const Color white = Color(0xFFFFFFFF);
+  static const Color black = Color(0xFF000000);
+  static const Color grey = Color(0xFF757575);
+  static const Color lightGrey = Color(0xFFE0E0E0);
+  static const Color success = Color(0xFF4CAF50);
+  static const Color error = Color(0xFFF44336);
+
+  static const LinearGradient primaryGradient = LinearGradient(
+    colors: [Color(0xFF6B0F4F), Color(0xFF9C1458)],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
+}
