@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../controllers/auth_controller.dart';
 import '../../utils/colors.dart';
-import '../../routes/app_routs.dart';
+import '../../routes/app_routes.dart';
+
 
 /// Sign Up Screen
 class SignUpScreen extends StatelessWidget {

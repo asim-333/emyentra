@@ -12,7 +12,7 @@ import 'package:flutter/foundation.dart'
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
+/// );s
 /// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
